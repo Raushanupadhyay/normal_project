@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Anahuman_project/60a43b7699c64c1c6e19e476_shutterstock_122573227.jpg);
+    background-size: cover;
+    
+}
+
+.main{
+    
+    width: 100%;
+    height: 700px;
+}
+
+.butto{
+    display: inline-block;
+    background-color:rgba(0,0,0,0.5);
+    margin-left: 1300px;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.butto:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    box-shadow: 2px 2px 10px yellow;
+    background-color: blue;
+    
+}
+
+
+.login{
+    
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    margin-top:130px ;
+    margin-left: 600px;
+    
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px darkgray;
+    transition: 1s;
+}
+
+.login:hover{
+    
+    box-shadow: 5px 5px 15px blue;
+}
+
+.log{
+    text-transform: uppercase;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    border-bottom: 4px solid rgba(255,255,255,0.5);
+    color: white;
+
+}
+
+
+
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+.box:hover{
+    width: 70%;
+    cursor: pointer;
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+    color: white;
+    box-shadow: 2px 2px 15px yellow;
+    background-color: green;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: left;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
